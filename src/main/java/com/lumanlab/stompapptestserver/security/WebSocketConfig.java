@@ -22,7 +22,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
-        registry.setApplicationDestinationPrefixes("/pub");
-        registry.enableSimpleBroker("/sub");
+        registry.setApplicationDestinationPrefixes("/stomp/message/pub");
+        registry.enableSimpleBroker("/stomp/message/sub");
     }
 }

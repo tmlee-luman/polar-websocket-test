@@ -1,2 +1,2 @@
 logging:
-  config: classpath:log/logback-dev-config
+  config: classpath:log/logback-dev-config.xml
